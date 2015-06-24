@@ -58,3 +58,16 @@ Now type **python database_setup.py** to initialize the database.
 Type **python lotsofmenus.py** to populate the database with restaurants and menu items. (Optional)
 
 Type **python project.py** to run the Flask web server. In your browser visit **http://localhost:5000** to view the restaurant menu app.  You should be able to view, add, edit, and delete menu items and restaurants.
+
+
+## How does OAuth work?
+After registering your app, you will receive a client ID and a client secret. The client ID is considered public information, and is used to build login URLs, or included in Javascript source code on a page. The client secret must be kept confidential. If a deployed app cannot keep the secret confidential, such as Javascript or native apps, then the secret is not used.
+
+
+## Resources
+* Source code: https://github.com/udacity/ud330
+* http://www.darkreading.com/safely-storing-user-passwords-hashing-vs-encrypting/a/d-id/1269374
+* https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified
+* https://developers.google.com/identity/protocols/OpenIDConnect
+* Play around with Google+ OAuth: https://developers.google.com/oauthplayground
+* https://howsecureismypassword.net/
