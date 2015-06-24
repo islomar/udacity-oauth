@@ -61,7 +61,9 @@ Type **python project.py** to run the Flask web server. In your browser visit **
 
 
 ## How does OAuth work?
-After registering your app, you will receive a client ID and a client secret. The client ID is considered public information, and is used to build login URLs, or included in Javascript source code on a page. The client secret must be kept confidential. If a deployed app cannot keep the secret confidential, such as Javascript or native apps, then the secret is not used.
+After registering your app, you will receive a **client ID** and a **client secret**. 
+* The **client ID** is considered public information, and is used to build login URLs, or included in Javascript source code on a page. 
+* The **client secret** must be kept confidential. If a deployed app cannot keep the secret confidential, such as Javascript or native apps, then the secret is not used.
 
 
 ## Resources
