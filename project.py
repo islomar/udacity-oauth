@@ -105,7 +105,7 @@ def gconnect():
 
   data = answer.json()
 
-  print "data: %s" % data
+  print "User info recovered from Google API: %s" % data
 
   login_session['username'] = data['name']
   login_session['picture'] = data['picture']
